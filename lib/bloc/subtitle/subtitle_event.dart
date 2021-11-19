@@ -17,3 +17,8 @@ class UpdateLoadedSubtitle extends SubtitleEvent {
 
   UpdateLoadedSubtitle({required this.subtitle});
 }
+
+class DeleteLoadedSubtitle extends SubtitleEvent {
+
+  DeleteLoadedSubtitle();
+}
