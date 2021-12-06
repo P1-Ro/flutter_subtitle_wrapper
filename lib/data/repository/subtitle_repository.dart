@@ -78,7 +78,7 @@ class SubtitleDataRepository extends SubtitleRepository {
     // Tries parsing the subtitle data
     // Lets try to parse the subtitle content with the specified subtitle type
     return getSubtitlesData(
-      subtitlesContent!,
+      subtitlesContent ?? "",
       subtitleController.subtitleType,
     );
   }
